@@ -1,0 +1,6 @@
+com\webpages\IndexPage.class
+com\webpages\AddCustomerPage.class
+com\webpages\AddTrafficPlanPage.class
+com\webpages\AddtrafficpalantocustomerPage.class
+com\webpages\PayBillingPage.class
+com\util\BaseClass.class

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testng(failed)">
+    <classes>
+      <class name="com.util.BaseClass">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="verifgoATPHome"/>
+          <include name="verifypageIndex"/>
+          <include name="verifyAddtrafficpalantocustomerPage"/>
+          <include name="launchApp"/>
+          <include name="verifyaddTrafficPlanDetails"/>
+          <include name="verifysuccesssmsg"/>
+          <include name="endSession"/>
+          <include name="verifygoToAddTrafficPlan"/>
+          <include name="verifyredirectHome"/>
+          <include name="verifyImagelogoOnPage"/>
+          <include name="verifyLink"/>
+          <include name="verifyenteredCustomerID"/>
+          <include name="startSession"/>
+          <include name="verifyAddCustomerPage"/>
+          <include name="verifyClickonAddplanCustomer"/>
+          <include name="verifyaddcustomerDetails"/>
+          <include name="verifyaccessdetails"/>
+        </methods>
+      </class> <!-- com.util.BaseClass -->
+    </classes>
+  </test> <!-- testng(failed) -->
+</suite> <!-- Failed suite [Suite] -->
